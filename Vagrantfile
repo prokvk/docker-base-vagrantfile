@@ -3,7 +3,7 @@
 
 Vagrant.configure(2) do |config|
 
-  config.vm.box = "hashicorp/precise64"
+  config.vm.box = "debian/jessie64"
 
   #Set your own port forwarding here
   #config.vm.network "forwarded_port", guest: 80, host: 8080
